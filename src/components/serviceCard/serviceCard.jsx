@@ -1,4 +1,4 @@
-import "./ServiceCard.css";
+import "./serviceCard.css";
 export const ServiceCard = ({ serviceName, serviceIcon, serviceDesc }) => {
   return (
     <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay={200}>
