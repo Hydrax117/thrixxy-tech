@@ -1,0 +1,54 @@
+/* start of team  */
+@import url(../../index.css);
+
+.imgg {
+  height: 220px;
+  width: 220px;
+  border-radius: 400px 400px;
+  transition: ease-in-out 0.3s;
+}
+.team-card:hover .imgg {
+  height: 200px;
+  width: 200px;
+  border-radius: 400px 400px;
+}
+.team-card:hover .team-social {
+  opacity: 1;
+}
+
+.team-social {
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
+.icn:hover {
+  background-color: blue;
+  color: white;
+  display: block;
+}
+.icn {
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 2px;
+}
+.team-title {
+  color: blue;
+}
+.team {
+  justify-content: center;
+}
+
+.team-card {
+  height: 400px;
+  background: rgba(220, 205, 216, 0.307);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.3s;
+  border-radius: 10px;
+  width: 100%;
+}
+/* end of team */
